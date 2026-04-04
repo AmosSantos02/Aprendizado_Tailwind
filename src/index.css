@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Graphik-bold";
+  src: url(./fonts/Graphik-Bold-Trial.otf);
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Graphik";
+  src: url(./fonts/Graphik-Regular-Trial.otf);
+  font-style: normal;
+  font-display: swap;
+}
+
+ @theme {
+  --font-graphik: "Graphik", sans-serif;
+  --font-graphik-bold: "Graphik-bold", sans-serif;
+
+  --color-brand-purple: #64006e;
+  --color-btn-dark: #23191a;
+  --color-placeholder: #646464;
+  --color-title: #231f20;
+  --color-input: #a8a8ad;
+  --color-brand-pink: #c20077;
+  --color-gray-card: #E9E9E9;
+}
+
