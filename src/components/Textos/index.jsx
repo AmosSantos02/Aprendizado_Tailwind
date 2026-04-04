@@ -12,7 +12,7 @@ export const Texto = ({
   if (type === "h1") {
     return (
       <h1
-        className={`font-graphik-bold text-[28px] leading-8 ${colors[color]} ${className}`}
+        className={`font-graphik-bold text-[28px] lg:text-4xl leading-8 ${colors[color]} ${className}`}
       >
         {children}
       </h1>

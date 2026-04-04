@@ -4,8 +4,8 @@ import fotoFeliz from "../../assets/images/foto.png";
 
 export const Descricao = ({ children, className = "" }) => {
   return (
-    <div  className="w-full flex flex-col bg-linear-to-r from-brand-purple to-brand-pink gap-3.5 items-center">
-      <div className="flex flex-col p-10 gap-6">
+    <div  className="w-full flex flex-col items-center bg-linear-to-r from-brand-purple to-brand-pink gap-3.5 items-center lg:flex-row-reverse lg:justify-center lg:h-[535px]">
+      <div className="w-[396px] flex flex-col p-10 gap-6 items-cente">
         <Texto type="h1" color="white">
           Empreendedorismo digital sem medo!
         </Texto>
@@ -22,7 +22,7 @@ export const Descricao = ({ children, className = "" }) => {
 
         <Button variant="form" className="font-graphik-bold text-lg">Baixe seu e-book!</Button>
       </div>
-      <img src={fotoFeliz} className="w-[431px] h-[276px]" />
+      <img src={fotoFeliz} className="w-[431px] h-[276px] lg:w-[629px] lg:h-[535px]" />
     </div>
   );
 };

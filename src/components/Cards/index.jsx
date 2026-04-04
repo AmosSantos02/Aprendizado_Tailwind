@@ -9,7 +9,7 @@ import iconeMidias from "../../assets/icon/Vector.png";
 
 export const Card = ({ children }) => {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col items-center">
       <Texto type="h3" className="p-5 mt-10">
         O que você vai ver neste e-book?
       </Texto>
